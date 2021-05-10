@@ -1,0 +1,36 @@
+baseURL = "https://gohugo.io/"
+title = "GABG Video"
+languagecode = "it"
+author = "Steve Francia & GABG"
+copyright = "Copyright © 2008–2019 Steve Francia, 2021 GABG" #supports html markup
+paginate = 3
+languageCode = "it"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "esplosione nucleare"
+disqusShortname = "esplosione nucleare"
+theme = "monopriv"
+enableEmoji = true
+summaryLength = 20
+
+[params]  
+about = "Un archivio di tutti i video pubblicati da GABG con molte info aggiuntive"
+website = "https://greenabg.github.io"
+email = "GreenAndBlueG@protonmail.com"
+# site meta description
+metadesc = "Un archivio di info aggiuntive riguardo i video di GABG"
+# site meta keywords
+metakeys = "gabg, archive, info, repo, video"
+# enable/disable disqus comments 
+disqus = false 
+# enable/disable google analytics 
+analytics = false
+
+[params.search] # Site search powered by DuckDuckGo
+enabled = true
+placeholder="Ricerca globale nel sito"
+
+[params.hero]
+enabled = true
+img = "img/logo.png"
