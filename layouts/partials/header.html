@@ -6,7 +6,6 @@
 	{{else}}
 		{{if eq .Section "video"}}
 		<meta name="keywords" content='{{ range .Params.tags}}{{.}}{{", "}}{{end}}'>
-		<link rel="stylesheet" type="text/css" href='{{ "css/video.css" | absURL }}'>
 	{{end}}
 	<!-- {{range .Params.tags}}{{.}}{{", "}}{{end}} -->
 	{{end}}
